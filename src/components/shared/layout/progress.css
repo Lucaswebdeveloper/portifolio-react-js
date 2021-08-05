@@ -1,0 +1,42 @@
+#photoshop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#photoshop .icon{
+    width: 4vh;
+    height: 4vh;
+    margin: 10px;
+    
+}
+#photoshop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+#photoshop .icon-desing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+
+#body-2 .icon-web{
+    width: 3vh;
+    height: 3vh;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px){
+
+    #body-2{
+        max-width: 80%;
+
+    }
+}

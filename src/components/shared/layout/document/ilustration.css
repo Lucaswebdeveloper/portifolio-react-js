@@ -1,0 +1,36 @@
+#body-3{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+#card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+}
+#card-img img {
+    width: 100%;
+    height: 100%;
+}
+#card-img span {
+    color: white;
+    margin: 5px;
+    margin-top: 20px;
+    width: 100%;
+  
+    
+}
+#link {
+    background-color: red;
+}
